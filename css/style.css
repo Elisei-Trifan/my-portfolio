@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(189, 183, 183);
+  background-color: white;
   font-family: 'Inter', sans-serif;
 }
 
@@ -38,6 +42,10 @@ body {
   padding: 70px 0;
   display: flex;
   align-items: center;
+}
+
+.header-foto {
+  border-radius: 50px;
 }
 
 .header-text {
@@ -181,4 +189,128 @@ body {
 
 .card-button-icon {
   margin-right: 4px;
+}
+
+.developer {
+  padding: 80px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dev-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.dev-about {
+  margin-left: 55px;
+}
+
+.dev-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02 em;
+  color: #211b12;
+}
+
+.dev-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03 em;
+  color: #bf7506;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.dev-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+}
+
+.motto {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #dd9c3c;
+  margin: 16px 0;
+}
+
+.dev-sign {
+  max-width: 200px;
+}
+
+.skills {
+  padding: 20px 0;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #211b12;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+}
+
+.input-group {
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807c;
+  padding: 0 8px;
+  background: #ffffff;
+  top: 0;
+  left: 16px;
+}
+.input {
+  border: 3px solid #e0dedc;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+}
+
+.textarea {
+  min-height: 140px;
+}
+
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  border: none;
+  border-bottom: 2px solid #bf7506;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
 }
