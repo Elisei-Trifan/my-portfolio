@@ -258,7 +258,15 @@ body {
 }
 
 .feedback {
+  position: relative;
   padding: 80px 0 160px;
+}
+
+.hand {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 30%;
 }
 
 .input-group {
