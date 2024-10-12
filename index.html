@@ -19,16 +19,22 @@
       <nav class="navigation">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="" class="nav-link active">Главная</a>
+            <a href="#header" class="nav-link active">Главная</a>
           </li>
-          <li class="nav-item"><a href="" class="nav-link">Проекты</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Обо мне</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Связаться</a></li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Проекты</a>
+          </li>
+          <li class="nav-item">
+            <a href="#developer" class="nav-link">Обо мне</a>
+          </li>
+          <li class="nav-item">
+            <a href="#feedback" class="nav-link">Связаться</a>
+          </li>
         </ul>
       </nav>
     </div>
     <!--  -->
-    <header class="header container">
+    <header id="header" class="header container">
       <img src="./img/avatar2.jpg" alt="Трифан Елисей" class="header-foto" />
       <!-- /.header-foto -->
       <div class="header-text">
@@ -83,7 +89,11 @@
               /></a>
             </li>
           </ul>
-          <a href="#" class="cv-download" download>
+          <a
+            href="./document/Резюме Трифан Елисей.pdf"
+            class="cv-download"
+            download
+          >
             <img
               src="./img/download.svg"
               alt="скачать резюме"
@@ -97,7 +107,7 @@
       <!-- /.header-text -->
     </header>
     <!-- /.header -->
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="section-heading">Последние проекты</h2>
         <div class="cards">
@@ -174,7 +184,7 @@
       </div>
     </section>
     <!-- /.portfolio -->
-    <section class="developer container">
+    <section class="developer container" id="developer">
       <img src="./img/dev-photo.JPG" alt="Елисей Трифан" class="dev-photo" />
       <div class="dev-about">
         <span class="dev-hello">Рад Вас видеть на моем сайте</span>
@@ -208,7 +218,7 @@
       </ul>
     </section>
     <!-- /.skills -->
-    <section class="feedback">
+    <section class="feedback" id="feedback">
       <img src="./img/hand.png" alt="hand" class="hand" />
       <div class="form-container">
         <h2 class="feed-title">Готов обсудить проект...</h2>
