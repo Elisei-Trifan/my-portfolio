@@ -138,7 +138,10 @@
                     alt="code"
                     class="card-button-icon"
                   /><span class="card-button-text">Код</span></a
-                ><a href="" class="card-button"
+                ><a
+                  href="./BookLibraryApp.html"
+                  target="_blank"
+                  class="card-button"
                   ><img
                     src="./img/Icons/yes.svg"
                     alt="yes"
@@ -226,20 +229,27 @@
         <form action="#" class="form">
           <div class="input-group">
             <label for="userName" class="input-label">Имя</label>
-            <input id="userName" name="client_name" type="text" class="input" />
+            <input
+              required
+              id="userName"
+              name="client_name"
+              type="text"
+              class="input"
+            />
           </div>
           <div class="input-group">
             <label for="userEmail" class="input-label">Email</label>
             <input
               id="userEmail"
               name="client_email"
-              type="text"
+              type="email"
               class="input"
             />
           </div>
           <div class="input-group">
             <label for="userMessage" class="input-label">Сообщение</label>
             <textarea
+              required
               id="userMessage"
               cols="30"
               rows="10"

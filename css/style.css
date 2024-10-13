@@ -300,6 +300,7 @@ body {
   border-radius: 4px;
   width: 100%;
   height: 56px;
+  padding: 10px;
 }
 
 .textarea {
