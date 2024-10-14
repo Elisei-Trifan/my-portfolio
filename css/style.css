@@ -340,6 +340,13 @@ body {
   padding-bottom: 40px;
 }
 
+.footer-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
 .footer-contain {
   padding: 30px;
   display: flex;
@@ -445,7 +452,9 @@ body {
   }
   .header-text {
     text-align: center;
+    margin: 0;
   }
+
   .header-links {
     flex-direction: column;
   }
@@ -467,7 +476,11 @@ body {
   .nav-list {
     flex-direction: column;
   }
+
   .nav-link {
     margin: 0;
+  }
+  .nav-item {
+    padding-right: 20px;
   }
 }
