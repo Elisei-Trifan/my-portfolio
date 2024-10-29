@@ -52,3 +52,19 @@ body {
   opacity: 1;
   transition: opacity 0.4s ease-in 0.4s;
 }
+
+@media (max-width: 480px) {
+  .container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .slide {
+    background-position: 50%;
+  }
+  .slide_2 {
+    background-position: 60%;
+  }
+  .slide_3 {
+    background-position: 80%;
+  }
+}
